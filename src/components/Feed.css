@@ -1,0 +1,11 @@
+.moviesFeed {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.movie_image {
+  border-radius: 5%;
+  width: 250px;
+  height: 400px;
+}
