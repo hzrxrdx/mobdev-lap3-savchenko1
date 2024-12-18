@@ -9,6 +9,7 @@ export interface IMovie {
     imdbID: string
     Type: string
     Poster: string
+    isLiked?: boolean
 }
 
 export interface IGetMovieRDO {

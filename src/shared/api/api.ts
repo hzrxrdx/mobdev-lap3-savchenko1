@@ -4,7 +4,7 @@ import { IGetMovieRDO, ISearchMoviesRDO } from "../../entity/movie/movie_rdo";
 const KEY = import.meta.env.VITE_OMDB_KEY;
 
 const OMDBApiInstance = axios.create({
-  baseURL: "http://www.omdbapi.com",
+  baseURL: "https://www.omdbapi.com",
 });
 
 const OMDBApi = {

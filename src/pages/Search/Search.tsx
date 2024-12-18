@@ -9,7 +9,6 @@ import "./Search.css";
 const Search = () => {
   const [search, setSearch] = useState("");
   const [movies, setMovies] = useState<IMovie[]>([]);
-  const [hash, setHash] = useState("")
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setMovies((await OMDBApi.searchMovie(search)).Search);
